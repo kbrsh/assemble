@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  src: local('Gilroy-ExtraBold'), url(./Gilroy-ExtraBold.otf) format('opentype');
+}
