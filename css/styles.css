@@ -2,6 +2,18 @@ html {
   overflow-x: hidden;
 }
 
+/* phones */
+@media (min-width:320px) {
+  h1 {
+    font-size: 6rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+}
+
 @media (min-width:961px) {
   h1 {
     font-size: 10rem;
@@ -10,6 +22,8 @@ html {
     font-size: 4rem;
   }
 }
+
+
 h1 {
   font-family: "Gilroy";
   color: #4c81eb;
