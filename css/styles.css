@@ -14,11 +14,26 @@ p {
   margin-top: 1rem;
 }
 
+a.btn {
+  border-radius: 100px;
+  background-color: #4c81eb;
+  color: #f5f5f5;
+  font-family: "Gilroy";
+  padding: 2.5rem 4rem;
+}
+
+a.btn:hover {
+  
+}
+
 @media (max-width: 540px) and (min-width: 400px){
   h1 {
     font-size: 5rem !important;
   }
   p {
     font-size: 2rem;
+  }
+  a.btn {
+    padding: 2rem 3rem;
   }
 }
