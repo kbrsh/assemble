@@ -57,10 +57,10 @@ footer a:hover {
 
 @media (max-width: 540px) and (min-width: 400px){
   h1 {
-    font-size: 5rem !important;
+    font-size: 4.5rem !important;
   }
   p {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   a.btn {
     padding: 2rem 3rem;
