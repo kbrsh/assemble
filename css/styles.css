@@ -21,10 +21,12 @@ a.btn {
   font-family: "Gilroy";
   padding: 2.5rem 4rem;
   border: 2px solid #4c81eb;
+  transition: all 1s ease;
 }
 
 a.btn:hover {
-
+  background: transparent;
+  color: #4c81eb;
 }
 
 @media (max-width: 540px) and (min-width: 400px){
