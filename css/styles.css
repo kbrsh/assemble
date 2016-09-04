@@ -1,3 +1,7 @@
+html {
+  overflow-x: hidden;
+}
+
 h1 {
   font-family: "Gilroy";
   color: #4c81eb;
@@ -29,6 +33,28 @@ a.btn:hover {
   color: #4c81eb;
 }
 
+footer {
+  color: #AAAAAA;
+  position: absolute;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Gilroy";
+  right: 5%;
+  bottom: 5%;
+}
+
+footer a {
+  color: #AAAAAA;
+  border-bottom: 2px solid #AAAAAA;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #4c81eb;
+  border-bottom: 2px solid #4c81eb;
+}
+
 @media (max-width: 540px) and (min-width: 400px){
   h1 {
     font-size: 5rem !important;
@@ -38,5 +64,11 @@ a.btn:hover {
   }
   a.btn {
     padding: 2rem 3rem;
+  }
+}
+
+@media screen and (min-width:501px) and (max-width:999px) {
+  p {
+    font-size: 3rem;
   }
 }
