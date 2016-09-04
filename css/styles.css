@@ -5,9 +5,13 @@ h1 {
 }
 
 p {
-  font-size: 3.5rem;
-  font-family: "Quicksand";
+  font-size: 4rem;
+  font-family: "Andis";
   text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
 }
 
 @media (max-width: 540px) and (min-width: 400px){
