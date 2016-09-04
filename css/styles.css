@@ -2,27 +2,6 @@ html {
   overflow-x: hidden;
 }
 
-/* phones */
-@media (min-width:320px) {
-  h1 {
-    font-size: 6rem;
-  }
-
-  p {
-    font-size: 2rem;
-  }
-
-}
-
-@media (min-width:961px) {
-  h1 {
-    font-size: 10rem;
-  }
-  p {
-    font-size: 4rem;
-  }
-}
-
 
 h1 {
   font-family: "Gilroy";
@@ -77,4 +56,26 @@ footer a {
 footer a:hover {
   color: #4c81eb;
   border-bottom: 2px solid #4c81eb;
+}
+
+/* phones */
+@media (min-width:320px) {
+  h1 {
+    font-size: 6rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+}
+
+/* desktops */
+@media (min-width:961px) {
+  h1 {
+    font-size: 10rem;
+  }
+  p {
+    font-size: 4rem;
+  }
 }
