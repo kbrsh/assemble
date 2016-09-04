@@ -2,17 +2,25 @@ html {
   overflow-x: hidden;
 }
 
+@media (min-width:961px) {
+  h1 {
+    font-size: 10rem;
+  }
+  p {
+    font-size: 4rem;
+  }
+}
 h1 {
   font-family: "Gilroy";
   color: #4c81eb;
-  font-size: 10rem;
+  /*font-size: 10rem;*/
 }
 
 p {
-  font-size: 4rem;
+  /*font-size: 4rem;*/
   font-family: "Andis";
   text-align: center;
-  width: 50%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1rem;
@@ -25,6 +33,8 @@ a.btn {
   font-family: "Gilroy";
   padding: 2.5rem 4rem;
   border: 2px solid #4c81eb;
+  display: inline-block;
+  margin-top: 3rem;
   transition: all 1s ease;
 }
 
@@ -53,22 +63,4 @@ footer a {
 footer a:hover {
   color: #4c81eb;
   border-bottom: 2px solid #4c81eb;
-}
-
-@media (max-width: 540px) and (min-width: 400px){
-  h1 {
-    font-size: 4.5rem !important;
-  }
-  p {
-    font-size: 1rem;
-  }
-  a.btn {
-    padding: 2rem 3rem;
-  }
-}
-
-@media screen and (min-width:501px) and (max-width:999px) {
-  p {
-    font-size: 3rem;
-  }
 }
