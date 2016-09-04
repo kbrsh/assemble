@@ -3,3 +3,9 @@
   font-style: normal;
   src: local('Gilroy-ExtraBold'), url(./Gilroy-ExtraBold.otf) format('opentype');
 }
+
+@font-face {
+  font-family: 'Andis';
+  font-style: normal;
+  src: local('Gilroy-Light'), url(./Andis-Light.otf) format('opentype');
+}
