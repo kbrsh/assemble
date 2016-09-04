@@ -1,4 +1,11 @@
 h1 {
   font-family: "Gilroy";
   color: #4c81eb;
+  font-size: 10rem;
+}
+
+@media (max-width: 540px) and (min-width: 400px){
+  h1 {
+    font-size: 5rem !important;
+  }
 }
