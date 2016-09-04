@@ -4,6 +4,12 @@ h1 {
   font-size: 10rem;
 }
 
+p {
+  font-size: 3.5rem;
+  font-family: "Quicksand";
+  text-align: center;
+}
+
 @media (max-width: 540px) and (min-width: 400px){
   h1 {
     font-size: 5rem !important;
