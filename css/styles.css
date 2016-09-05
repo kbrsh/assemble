@@ -1,5 +1,10 @@
 html {
-  overflow-x: hidden;
+    position: relative;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
 }
 
 
@@ -37,13 +42,17 @@ a.btn:hover {
 
 footer {
   color: #AAAAAA;
-  position: absolute;
   text-align: center;
   font-size: 2rem;
   font-family: "Gilroy";
-  right: 5%;
-  bottom: 5%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: auto;
+  padding: 1rem;
+  width: 100%;
 }
+
 
 footer a {
   color: #AAAAAA;
