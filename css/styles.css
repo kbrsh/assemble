@@ -10,10 +10,9 @@ h1 {
 }
 
 p {
-  /*font-size: 4rem;*/
   font-family: "Andis";
   text-align: center;
-  width: 75%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1rem;
@@ -65,7 +64,7 @@ footer a:hover {
   }
 
   p {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
 }
